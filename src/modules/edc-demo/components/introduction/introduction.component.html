@@ -1,0 +1,84 @@
+<div id="wrapper">
+    <mat-card>
+      <h1>NCSR Dataspace</h1>
+      <div>
+        <p class="description">Ο NCSR Dataspace είναι μια πιλοτική υλοποίηση ενός Χώρου Δεδομένων ο οποίος αποτελεί ένα κατανεμημένο σύστημα με ένα καλά ορισμένο πλαίσιο διακυβέρνησης, το οποίο επιτρέπει αξιόπιστες συναλλαγές δεδομένων μεταξύ των συμμετεχόντων και υποστηρίζει την εμπιστοσύνη και την κυριαρχία των δεδομένων.
+        </p>
+        <p class="description">Η υλοποίηση του NCSR Dataspace βασίζεται στον <a class="link" href="https://github.com/International-Data-Spaces-Association/IDS-testbed/blob/master/minimum-viable-data-space/MVDS.md">Minimum Viable Data Space (MVDS)</a> με μια σειρά προσαρμογών και τροποποιήσεων <a class="link" href="https://github.com/shadowwma/LBNCSRDataspace"> Dataspace Code repo.</a>
+        </p>
+      </div>
+    </mat-card>
+
+    <mat-card>
+      <h1>Ενότητες Dashboard</h1>
+      <ul id="example-use-cases-list">
+        <li><a href="/catalog-browser" class="link" color="primary">Catalog Browser.</a> Εξερευνήστε τα Contract Definitions που υπάρχουν στο NCSR  Dataspace, διαθέσιμα από όλους τους Connectors που είναι εγγεγραμμένοι στο Registration Service του Dataspace.</li>
+        <li><a href="/contracts" class="link" color="primary">Contacts.</a> Δημιουργούνται μετά από το negotiation μεταξύ του NCSR  Dataspace με τρίτα Dataspaces σύμφωνα με ένα συγκεκριμένο Contract Definition.</li>
+        <li><a href="/transfer-history" class="link" color="primary">Transfer History.</a> Ιστορικό με τις με τις μεταφορές που έχει πραγματοποιήσει ή έχει απορρίψει ο NCSR Dataspace. </li>
+        <li><a href="/contract-definitions" class="link" color="primary">Contract Definitions.</a> Δείτε την περιγραφή των Contracts που είναι διαθέσιμα στον NCSR Dataspace, η οποία περιλαμβάνει την πολιτική διαμοιρασμού, την πολιτική εμφάνισης καθώς και αναφορά στο συγκεκριμένο Asset (s). </li>
+        <li><a href="/policies" class="link" color="primary">Policies.</a> Πολιτικές που διέπουν το διαμοιρασμό και την εμφάνιση των Assets.</li>
+        <li><a href="/my-assets" class="link" color="primary">Assets.</a> Τα στοιχεία τα οποία περιέχει ο NCSR Dataspace. Στη τρέχουσα κατάσταση περιέχει αρχεία με τα καθημερινά δεδομένα από τους αισθητήρες.</li>
+      </ul>
+    </mat-card>
+    <!-- <mat-card>
+    <h1>Eclipse Dataspace Connector</h1>
+    <div>
+        <p class="description">
+            The Eclipse Dataspace Connector provides a framework for sovereign, inter-organizational data exchange.
+            It implements the International Data Spaces standard (IDS) as well as relevant protocols associated with GAIA-X.
+            The connector is designed in an extensible way in order to support alternative protocols and integrate in various ecosystems.
+        </p>
+        <p>
+          <a class="link" color="secondary" href="https://github.com/eclipse-dataspaceconnector/DataSpaceConnector"
+             mat-stroked-button
+             target="_blank">
+            GitHub
+          </a>
+          <a class="link" color="secondary"
+             href="https://github.com/eclipse-dataspaceconnector/DataSpaceConnector/blob/main/README.md"
+             mat-stroked-button
+             target="_blank">
+            Getting Started
+          </a>
+          <a class="link" color="secondary"
+             href="https://github.com/eclipse-dataspaceconnector/DataSpaceConnector/blob/main/onboarding.md"
+             mat-stroked-button
+             target="_blank">
+            Onboarding Guide
+          </a>
+        </p>
+    </div>
+</mat-card>
+
+<mat-card>
+    <h1>EDC Data Dashboard (this application)</h1>
+    <div>
+        <p class="description">
+          This EDC Data Dashboard is a developer UI for the EDC Management API.
+          This application is not intended for production usage and can be used to showcase EDC from a technical perspective, as the UI
+          is designed as a 1-1 mapping of the Management API.
+        </p>
+      <p>
+        <a class="link" color="secondary"
+           href="https://app.swaggerhub.com/apis/eclipse-edc-bot/management-api"
+           mat-stroked-button
+           target="_blank">
+          Management API
+        </a>
+      </p>
+      <p class="description">
+          Example use cases, that you can try out with this application, are:
+      </p>
+      <ul id="example-use-cases-list">
+        <li>View the asset catalog available to you in your Dataspace using the <a [routerLink]="['/catalog-browser']" class="md-accent">Catalog Browser</a></li>
+        <li>Negotiate a contract for data sharing in your Dataspace using the <a [routerLink]="['/catalog-browser']">Catalog Browser</a></li>
+        <li>View your existing contracts in the <a [routerLink]="['/contracts']">Contracts</a> page</li>
+        <li>Transfer an asset in your Dataspace using the <a [routerLink]="['/contracts']">Contracts</a> page</li>
+        <li>View which assets have been transferred in your Dataspace in the <a [routerLink]="['/transfer-history']">Transfer History</a> page</li>
+        <li>View and create assets using the <a [routerLink]="['/my-assets']">Assets</a> page</li>
+        <li>View and create policies and apply these to assets in your Dataspace using the <a [routerLink]="['/policies']">Policies</a> page</li>
+        <li>Publish a new asset into your Dataspace using the <a [routerLink]="['/contract-definitions']">Contract Definitions</a> page</li>
+      </ul>
+    </div>
+</mat-card>
+</div> -->
